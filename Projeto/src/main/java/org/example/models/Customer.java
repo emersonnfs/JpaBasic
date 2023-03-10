@@ -15,10 +15,10 @@ import lombok.Setter;
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int customerId;
+    private int customerId;
 
-    public String customerName;
-    public String customerAddress;
-    public String customerPhone;
-    public String customerEmail;
+    private String customerName;
+    private String customerAddress;
+    private String customerPhone;
+    private String customerEmail;
 }
